@@ -1,0 +1,31 @@
+{
+  "name": "ts-national-parks-backend",
+  "version": "1.0.0",
+  "description": "TypeScript Practice Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./dist/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/han-yan-ds/ts-national-parks-backend.git"
+  },
+  "author": "Han Yan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/han-yan-ds/ts-national-parks-backend/issues"
+  },
+  "homepage": "https://github.com/han-yan-ds/ts-national-parks-backend#readme",
+  "dependencies": {
+    "@types/node": "^13.7.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "tslint": "^6.0.0"
+  }
+}
